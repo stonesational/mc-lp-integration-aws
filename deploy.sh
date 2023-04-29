@@ -3,6 +3,8 @@
 ECR_REPO_NAME=mc-lp-connector-ecr
 AWS_REGION=us-west-1
 
+./mvnw install
+
 echo;echo "Getting the ECR Repository URI for $ECR_REPO_NAME on $AWS_REGION"
 ECR_REPOSITORY=$(aws ecr describe-repositories \
   --query "repositories[?repositoryName=='$ECR_REPO_NAME'].repositoryUri" --output=text)
