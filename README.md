@@ -1,3 +1,6 @@
+# MC JB Custom Activity Connector (AWS)
+This will allow the hosting of a SF Marketing Cloud Journey Builder Custom Activity on AWS
+
 
 ## Pre-requisites
 1. [Install aws cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
